@@ -1,0 +1,15 @@
+::ng-deep .mat-card-header {
+    background-color: #ff6347 !important; /* Altera a cor de fundo do cabeçalho para um tom de vermelho coral */
+    padding: 10px !important; /* Aumenta o preenchimento do cabeçalho */
+    font-size: 18px !important; /* Altera o tamanho da fonte do cabeçalho */
+}
+
+::ng-deep .mat-card-content {
+    background-color: #dcdcdc; /* Altera a cor de fundo do conteúdo para um cinza mais claro */
+    padding: 10px !important; /* Aumenta o preenchimento do conteúdo */
+    font-size: 16px !important; /* Altera o tamanho da fonte do conteúdo */
+}
+
+.spacing {
+    margin-bottom: 30px; /* Aumenta a margem inferior para 30 pixels */
+}

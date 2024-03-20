@@ -1,0 +1,9 @@
+::ng-deep .mat-card-header {
+    background-color: #ff5733 !important; /* Altera a cor de fundo do cabeçalho para laranja */
+    padding: 15px !important; /* Aumenta o preenchimento do cabeçalho */
+}
+
+::ng-deep .mat-card-content {
+    background-color: #e8e8e8; /* Altera a cor de fundo do conteúdo para um cinza mais claro */
+    padding: 15px !important; /* Aumenta o preenchimento do conteúdo */
+}

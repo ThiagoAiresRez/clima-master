@@ -1,0 +1,27 @@
+.custom-card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Altera para centralizar verticalmente o conteúdo */
+  align-items: center;
+  height: auto; /* Altera para altura automática, para que o conteúdo do card se ajuste conforme necessário */
+  background-color: #f0f8ff; /* Altera a cor de fundo para um tom de azul claro */
+  padding: 15px; /* Aumenta o preenchimento */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+.custom-card .card-content button {
+  align-self: flex-start; /* Altera para alinhar o botão à esquerda */
+  margin-top: 30px; /* Aumenta o espaço entre o botão e o conteúdo acima */
+  background-color: #ff1493; /* Altera a cor de fundo do botão para rosa vivo */
+  color: #ffffff; /* Altera a cor do texto para branco */
+  padding: 10px 20px; /* Aumenta o preenchimento do botão */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  font-size: 16px; /* Altera o tamanho da fonte */
+  cursor: pointer; /* Altera o cursor para indicar que o botão é clicável */
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+}
+
+.custom-card .card-content button:hover {
+  background-color: #ff69b4; /* Altera a cor de fundo do botão ao passar o mouse para um tom mais claro de rosa */
+}
